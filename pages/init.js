@@ -32,49 +32,36 @@ $(document).ready(function() {
 
 function createElement(k) {
   var elem = $('#cursor');
-  if (k == "a" || k == "A") { elem.before('<span class="inner">A</span>'); }
-  if (k == "b" || k == "B") { elem.before('<span class="inner">B</span>'); }
+  if (k == "a" || k == "A") { elem.before('<span class="inner">a</span>'); }
+  if (k == "b" || k == "B") { elem.before('<span class="inner">b</span>'); }
 
   
-  if (k == "c" || k == "C") { 
-    
-    elem.before('<span class="inner"><img src="http://a.deviantart.net/avatars/i/n/infinitenyancatplz.gif"></span>'); 
-
-    var fontsize = displayCount * 5;
-    var fontsizecss = fontsize + 'px';
-
-      $('body').css({
-        'background-color': 'yellow',
-        'font-size': 'fontsizecss',
-
-  });
-
-}
+  if (k == "c" || k == "C") { elem.before('<span class="inner">c</span>'); }
 
 
-  if (k == "d" || k == "D") { elem.before('<span class="inner">D</span>'); }
-  if (k == "e" || k == "E") { elem.before('<span class="inner">E</span>'); }
-  if (k == "f" || k == "F") { elem.before('<span class="inner">F</span>'); }
-  if (k == "g" || k == "G") { elem.before('<span class="inner">G</span>'); }
-  if (k == "h" || k == "H") { elem.before('<span class="inner">H</span>'); }
-  if (k == "i" || k == "I") { elem.before('<span class="inner">I</span>'); }
-  if (k == "j" || k == "J") { elem.before('<span class="inner">J</span>'); }
-  if (k == "k" || k == "K") { elem.before('<span class="inner">K</span>'); }
-  if (k == "l" || k == "L") { elem.before('<span class="inner">L</span>'); }
-  if (k == "m" || k == "M") { elem.before('<span class="inner">M</span>'); }
-  if (k == "n" || k == "N") { elem.before('<span class="inner">N</span>'); }
-  if (k == "o" || k == "O") { elem.before('<span class="inner">O</span>'); }
-  if (k == "p" || k == "P") { elem.before('<span class="inner">P</span>'); }
-  if (k == "q" || k == "Q") { elem.before('<span class="inner">Q</span>'); }
-  if (k == "r" || k == "R") { elem.before('<span class="inner">R</span>'); }
-  if (k == "s" || k == "S") { elem.before('<span class="inner">S</span>'); }
-  if (k == "t" || k == "T") { elem.before('<span class="inner">T</span>'); }
-  if (k == "u" || k == "U") { elem.before('<span class="inner">U</span>'); }
-  if (k == "v" || k == "V") { elem.before('<span class="inner">V</span>'); }
-  if (k == "w" || k == "W") { elem.before('<span class="inner">W</span>'); }
-  if (k == "x" || k == "X") { elem.before('<span class="inner">X</span>'); }
-  if (k == "y" || k == "Y") { elem.before('<span class="inner">Y</span>'); }
-  if (k == "z" || k == "Z") { elem.before('<span class="inner">Z</span>'); }
+  if (k == "d" || k == "D") { elem.before('<span class="inner">d</span>'); }
+  if (k == "e" || k == "E") { elem.before('<span class="inner">e</span>'); }
+  if (k == "f" || k == "F") { elem.before('<span class="inner">f</span>'); }
+  if (k == "g" || k == "G") { elem.before('<span class="inner">g</span>'); }
+  if (k == "h" || k == "H") { elem.before('<span class="inner">h</span>'); }
+  if (k == "i" || k == "I") { elem.before('<span class="inner">i</span>'); }
+  if (k == "j" || k == "J") { elem.before('<span class="inner">j</span>'); }
+  if (k == "k" || k == "K") { elem.before('<span class="inner">k</span>'); }
+  if (k == "l" || k == "L") { elem.before('<span class="inner">l</span>'); }
+  if (k == "m" || k == "M") { elem.before('<span class="inner">m</span>'); }
+  if (k == "n" || k == "N") { elem.before('<span class="inner">n</span>'); }
+  if (k == "o" || k == "O") { elem.before('<span class="inner">o</span>'); }
+  if (k == "p" || k == "P") { elem.before('<span class="inner">p</span>'); }
+  if (k == "q" || k == "Q") { elem.before('<span class="inner">q</span>'); }
+  if (k == "r" || k == "R") { elem.before('<span class="inner">r</span>'); }
+  if (k == "s" || k == "S") { elem.before('<span class="inner">s</span>'); }
+  if (k == "t" || k == "T") { elem.before('<span class="inner">t</span>'); }
+  if (k == "u" || k == "U") { elem.before('<span class="inner">u</span>'); }
+  if (k == "v" || k == "V") { elem.before('<span class="inner">v</span>'); }
+  if (k == "w" || k == "W") { elem.before('<span class="inner">w</span>'); }
+  if (k == "x" || k == "X") { elem.before('<span class="inner">x</span>'); }
+  if (k == "y" || k == "Y") { elem.before('<span class="inner">y</span>'); }
+  if (k == "z" || k == "Z") { elem.before('<span class="inner">z</span>'); }
   if (k == " ") { elem.before('<span class="inner">&nbsp;</span>') };
 }
 

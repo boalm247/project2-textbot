@@ -7,7 +7,7 @@ body {
 }
 
 #cursor {
-  animation: blinker 1s step-end infinite; 
+  animation: blinker 1.3s step-end infinite; 
   /* //you can change 'step-end' to 'linear' for smooth transition; */
   color: rgb(0, 0, 0);
 }
@@ -16,17 +16,28 @@ body {
   50% { opacity: 0; }
 }
 
-#container {
+#site {
   background-color: rgb(255, 255, 255);
   font-size: 3rem;
   width: 50rem;
   height: 3rem;
-  padding: 1rem;
-  margin: 1rem auto;
+  padding: 3rem;
+  margin: 3rem auto;
   word-wrap: break-word;
   text-align:center;
 }
-.inner {
+.container {
   display:grid;
+  grid-template-columns: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+  grid-template-rows: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+  border: solid 0.2rem black;
+  margin: 3rem auto;
+
   
+}
+
+.box{
+    grid-column: 1;
+    border-bottom: solid 0.2rem black; 
+    border-right: solid 0.2rem black; 
 }
