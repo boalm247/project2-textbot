@@ -1,0 +1,68 @@
+html{
+    font-size: 62.5%;
+    /* 62.5 ~= 10px when browser is default18 */
+}
+
+body{
+    background-color: #c8e8fa;
+}
+
+/* @keyframes float {
+    0% { left: 100%; top: 15% }
+    50%{ left: 50%; top: 20% }
+    100%{ left: 0%; top: 15%}
+
+} */
+
+@keyframes float {
+    0% { left: 100%}
+    50%{ left: 50%}
+    100%{ left: 0%}
+
+} 
+
+.cloud{
+    position: absolute;
+    width: 8rem;
+    height: 5rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    filter: blur(3px);
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out, ease-in-out;
+    
+}
+
+body .cloud:nth-child(1){
+    animation-name: float;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    top: 20%;
+
+}
+
+body .cloud:nth-child(2){
+    animation-name: float;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    top: 85%;
+
+}
+
+body .cloud:nth-child(3){
+    animation-name: float;
+    animation-duration: 5s;
+    animation-delay: 8s;
+    top: 75%;
+
+}
+
+body .cloud:nth-child(4){
+    animation-name: float;
+    animation-duration: 5s;
+    animation-delay: 12s;
+    top: 35%;
+
+}
+
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-size: 62.5%;
+  line-height: 1em;
+}
+
+#cursor {
+  animation: blinker 1s step-end infinite; 
+  /* //you can change 'step-end' to 'linear' for smooth transition; */
+  color: rgb(0, 0, 0);
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#container {
+  background-color: rgb(255, 255, 255);
+  font-size: 3rem;
+  width: 50rem;
+  height: 3rem;
+  padding: 1rem;
+  margin: 1rem auto;
+  word-wrap: break-word;
+  text-align:center;
+}
+.inner {
+  display:grid;
+  
+}
