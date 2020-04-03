@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-size: 62.5%;
+  line-height: 1em;
+}
+
+#cursor {
+  animation: blinker 1.3s step-end infinite; 
+  /* //you can change 'step-end' to 'linear' for smooth transition; */
+  color: rgb(0, 0, 0);
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#site {
+  background-color: rgb(255, 255, 255);
+  font-size: 3rem;
+  width: 50rem;
+  height: 3rem;
+  padding: 3rem;
+  margin: 3rem auto;ß
+  word-wrap: break-word;
+  text-align:center;
+}
+.container {
+  display:grid;
+  grid-template-columns: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+  grid-template-rows: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+  border: solid 0.2rem black;
+  margin: 3rem auto;
+  /* align-items: center;
+  justify-content: center; */
+
+  
+}
+
+.box{
+    grid-column: 1;
+    /* border-bottom: solid 0.2rem black; 
+    border-right: solid 0.2rem black;*/
+}
